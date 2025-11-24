@@ -2,6 +2,10 @@
 
 **Last Updated**: November 24, 2025
 
+## 🌐 View Online
+This privacy policy is hosted on GitHub Pages and can be viewed at:
+**https://klyra-dev.github.io/simple_weather_privacy_policy/**
+
 ## Introduction
 Simple Weather ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our weather application.
 
@@ -107,3 +111,16 @@ Simple Weather is a privacy-focused weather app that:
 ---
 
 By using Simple Weather, you agree to this privacy policy.
+
+## 📄 Repository Information
+
+This repository contains the privacy policy for the Simple Weather mobile application. The policy is available in two formats:
+
+- **Markdown**: [`README.md`](README.md) - The source document
+- **Web Page**: [`index.html`](index.html) - Styled HTML version hosted on GitHub Pages
+
+### Deployment
+
+The privacy policy is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the main branch. The deployment workflow can be found in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+To view the live version, visit: **https://klyra-dev.github.io/simple_weather_privacy_policy/**
