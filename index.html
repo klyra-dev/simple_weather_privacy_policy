@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Simple Weather - A privacy-focused weather application">
+    <title>Privacy Policy - Simple Weather</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .summary-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        .summary-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .summary-box li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .contact-box {
+            background: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #eee;
+            margin: 30px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Simple Weather</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> November 24, 2025</p>
+
+        <h2>Introduction</h2>
+        <p>Simple Weather ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our weather application.</p>
+
+        <h2>Information We Collect</h2>
+
+        <h3>Location Data</h3>
+        <ul>
+            <li><strong>Purpose:</strong> To provide weather information for your current location</li>
+            <li><strong>Type:</strong> GPS coordinates (latitude and longitude)</li>
+            <li><strong>Storage:</strong> Stored locally on your device only</li>
+            <li><strong>Optional:</strong> You can deny location permission; the app will default to New York City</li>
+        </ul>
+
+        <h3>IP-Based Location (Fallback)</h3>
+        <ul>
+            <li><strong>Purpose:</strong> If GPS permission is denied, we use IP geolocation as a fallback</li>
+            <li><strong>Service:</strong> ipapi.co</li>
+            <li><strong>Data:</strong> Approximate location based on IP address</li>
+            <li><strong>Not Stored:</strong> We don't store IP addresses</li>
+        </ul>
+
+        <h3>Recent Cities</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Quick access to previously searched cities</li>
+            <li><strong>Storage:</strong> Stored locally on your device using SharedPreferences</li>
+            <li><strong>Limit:</strong> Maximum of 5 recent cities</li>
+        </ul>
+
+        <h3>Temperature Preference</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Remember your Celsius/Fahrenheit preference</li>
+            <li><strong>Storage:</strong> Stored locally on your device</li>
+        </ul>
+
+        <h2>Information We Don't Collect</h2>
+        <ul>
+            <li>We do NOT collect personal identification information</li>
+            <li>We do NOT collect email addresses or phone numbers</li>
+            <li>We do NOT track your activity across other apps or websites</li>
+            <li>We do NOT sell or share your data with third parties</li>
+            <li>We do NOT use analytics or tracking services</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+
+        <h3>OpenWeather API</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Fetch weather data</li>
+            <li><strong>Data Sent:</strong> Location coordinates (latitude/longitude) or city name</li>
+            <li><strong>Privacy Policy:</strong> <a href="https://openweather.co.uk/privacy-policy" target="_blank">https://openweather.co.uk/privacy-policy</a></li>
+        </ul>
+
+        <h3>IP Geolocation (ipapi.co)</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Fallback location when GPS is unavailable</li>
+            <li><strong>Data Sent:</strong> Your IP address (automatically)</li>
+            <li><strong>Privacy Policy:</strong> <a href="https://ipapi.co/privacy/" target="_blank">https://ipapi.co/privacy/</a></li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+        <ul>
+            <li>All user preferences are stored locally on your device</li>
+            <li>No data is transmitted to our servers (we don't have servers)</li>
+            <li>Location data is only used for weather API requests</li>
+            <li>Data is transmitted over secure HTTPS connections</li>
+        </ul>
+
+        <h2>Permissions Required</h2>
+
+        <h3>Internet Permission</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Required to fetch weather data from OpenWeather API</li>
+            <li><strong>Mandatory:</strong> Yes</li>
+        </ul>
+
+        <h3>Location Permission</h3>
+        <ul>
+            <li><strong>Purpose:</strong> To automatically detect your location for weather updates</li>
+            <li><strong>Mandatory:</strong> No</li>
+            <li><strong>Alternative:</strong> Search for cities manually or use default location (New York)</li>
+        </ul>
+
+        <h3>Network State Permission</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Check internet connectivity before making API requests</li>
+            <li><strong>Mandatory:</strong> Yes</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Our app does not knowingly collect any personal information from children under 13 years of age. The app is suitable for all ages.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this privacy policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy.</p>
+
+        <h2>Data Deletion</h2>
+        <p>Since all data is stored locally on your device:</p>
+        <ul>
+            <li>Uninstalling the app will remove all stored data</li>
+            <li>You can clear app data in Android Settings &gt; Apps &gt; Simple Weather &gt; Storage &gt; Clear Data</li>
+        </ul>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access your data (stored locally on your device)</li>
+            <li>Delete your data (by clearing app data or uninstalling)</li>
+            <li>Deny location permissions at any time</li>
+            <li>Switch temperature units</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>If you have questions about this privacy policy, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:klyra.dev@gmail.com">klyra.dev@gmail.com</a></p>
+        </div>
+
+        <h2>Compliance</h2>
+        <p>This privacy policy complies with:</p>
+        <ul>
+            <li>Google Play Store requirements</li>
+            <li>General Data Protection Regulation (GDPR)</li>
+            <li>California Consumer Privacy Act (CCPA)</li>
+        </ul>
+
+        <div class="summary-box">
+            <h2>Summary</h2>
+            <p>Simple Weather is a privacy-focused weather app that:</p>
+            <ul>
+                <li>Stores all user data locally on your device</li>
+                <li>Does not collect personal information</li>
+                <li>Does not use analytics or tracking</li>
+                <li>Only shares location data with OpenWeather API for weather information</li>
+                <li>Provides full transparency about data usage</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <p>By using Simple Weather, you agree to this privacy policy.</p>
+        </div>
+    </div>
+</body>
+</html>
